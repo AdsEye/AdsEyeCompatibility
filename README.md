@@ -7,10 +7,10 @@ CocoaPods 与 Swift Package Manager 二选一，并添加到使用 AdsEye SDK �
 在 Podfile 的 App target 中添加：
 
 ```ruby
-pod 'AdsEyeCompatibility', :podspec => 'https://raw.githubusercontent.com/AdsEye/AdsEyeCompatibility/1.0.0/AdsEyeCompatibility.podspec'
+pod 'AdsEyeCompatibility', '1.0.0'
 ```
 
-然后执行 `pod install`。
+然后执行 `pod install --repo-update`。
 
 ## Swift Package Manager
 
